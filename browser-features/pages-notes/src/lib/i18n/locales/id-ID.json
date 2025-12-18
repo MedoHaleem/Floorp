@@ -1,0 +1,39 @@
+{
+    "title": {
+        "default": "Catatan {{productName}}"
+    },
+    "notes": {
+        "welcome": "Selamat datang di Catatan {{productName}}!",
+        "welcomeContent": "Selamat datang di Catatan {{productName}}! Berikut cara menggunakannya.\n\nCatatan {{productName}} adalah fitur catatan yang bisa disinkronisasikan lintas perangkat. Untuk menyalakan sinkronisasi, Anda perlu masuk ke {{productName}} menggunakan akun Mozilla.\nCatatan {{productName}} disimpan di {{productName}} dan disinkronkan antarperangkat via Firefox Sync. Firefox Sync mengenkripsi data sinkronisasi dengan kata sandi akun Mozilla Anda, sehingga orang lain tidak mengetahui isinya.",
+        "new": "Catatan Baru",
+        "reorder": "Susun ulang",
+        "done": "Selesai",
+        "emptyTitle": "Nirjudul",
+        "emptyContent": "Kosong",
+        "noNotesSelected": "Pilih catatan atau buat baru",
+        "createNew": "Buat Catatan Baru",
+        "titlePlaceholder": "Judul",
+        "loading": "Memuat catatan …",
+        "delete": "Hapus"
+    },
+    "editor": {
+        "bold": "Tebal",
+        "italic": "Miring",
+        "underline": "Garis Bawah",
+        "strikethrough": "Coret",
+        "bulletList": "Daftar Titik",
+        "numberedList": "Daftar Numerik",
+        "alignLeft": "Rata Kiri",
+        "alignCenter": "Rata Tengah",
+        "alignRight": "Rata Kanan",
+        "quote": "Kutipan",
+        "heading1": "Tajuk 1",
+        "heading2": "Tajuk 2",
+        "heading3": "Tajuk 3"
+    },
+    "error": {
+        "loadFailed": "Gagal memuat data catatan",
+        "saveFailed": "Gagal menyimpan data catatan",
+        "indexOutOfRange": "Indeks {{index}} di luar rentang"
+    }
+}

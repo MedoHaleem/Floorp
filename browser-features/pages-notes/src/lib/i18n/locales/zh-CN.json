@@ -1,0 +1,39 @@
+{
+    "title": {
+        "default": "{{productName}} 笔记"
+    },
+    "notes": {
+        "welcome": "欢迎访问 {{productName}} 笔记！",
+        "welcomeContent": "欢迎访问 {{productName}} 笔记！下面介绍如何使用它。\n\n{{productName}} 笔记是一种可以跨设备同步的笔记功能。要启用同步功能，需要使用 Mozilla 账户登录 {{productName}} 。\n{{productName}} 笔记存储在 {{productName}} 中，并使用 Firefox Sync 跨设备同步。Firefox Sync 会使用 Mozilla 帐户密码对同步内容进行加密，因此没人知道其内容。",
+        "new": "新建笔记",
+        "reorder": "获取",
+        "done": "完成",
+        "emptyTitle": "未命名",
+        "emptyContent": "无内容",
+        "noNotesSelected": "选择或创建一个笔记",
+        "createNew": "创建新笔记",
+        "titlePlaceholder": "标题",
+        "loading": "加载中笔记……",
+        "delete": "删除"
+    },
+    "editor": {
+        "bold": "粗体",
+        "italic": "斜体",
+        "underline": "下划线",
+        "strikethrough": "删除线",
+        "bulletList": "项目列表",
+        "numberedList": "有序列表",
+        "alignLeft": "左对齐",
+        "alignCenter": "中对齐",
+        "alignRight": "右对齐",
+        "quote": "引用",
+        "heading1": "标题 1",
+        "heading2": "标题 2",
+        "heading3": "标题 3"
+    },
+    "error": {
+        "loadFailed": "加载笔记数据失败",
+        "saveFailed": "保存笔记数据失败",
+        "indexOutOfRange": "{{index}} 索引超出范围"
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "navigation": {
+        "welcome": "Chào mừng",
+        "language": "Ngôn ngữ",
+        "languageSupport": "Ngôn ngữ",
+        "features": "Tính năng",
+        "featureIntroduction": "",
+        "hub": "Trung tâm Floorp",
+        "hubIntro": "Về Floorp Hub",
+        "customize": "Tùy chỉnh",
+        "initialSettings": "",
+        "complete": "Xong",
+        "previous": "Trước",
+        "next": "Tiếp"
+    },
+    "hubPage": {
+        "title": "Về Floorp Hub",
+        "subtitle": "Trung tâm cho các cài đặt Floorp",
+        "sectionTitle": "Trung tâm Floorp",
+        "description": "Floorp Hub là trang cài đặt riêng của Floopp. Bạn có thể mở bằng cách đi tới \"about:hub\". Bạn cũng có thể truy cập bằng thanh bên trái của trang cài đặt Firefox \"about:preferences\".",
+        "openHub": "Mở about:hub",
+        "openPreferences": "Mở cài đặt (about:preferences)",
+        "tip": "Mẹo nè: Trung tâm Floorp cũng có thể được mở từ thanh bên của cài đặt Firefox",
+        "features": {
+            "dedicated": "Dedicated Floorp settings center",
+            "accessible": "Accessible from about:hub or Firefox settings",
+            "centralized": "Mọi cài đặt Floorp trong 1 chỗ"
+        }
+    },
+    "customize": {
+        "title": "Tùy chỉnh Floorp",
+        "description": "Customize to your preferred settings. You can always change them later from the Floorp Hub or settings page.",
+        "appearance": {
+            "title": "Cài đặt giao diện ",
+            "description": "Bạn thích Floorp thế nào, Floorp sẽ như thế. Sáng, tối, hoặc tự động chuyển theo cài đặt hệ thống"
+        },
+        "themes": {
+            "light": "Sáng",
+            "dark": "Tối",
+            "system": "Theo hệ thống"
+        },
+        "themeInfo": {
+            "light": "Chủ đề sáng",
+            "dark": "Chủ đề tối",
+            "system": "Theo hệ thống"
+        },
+        "searchEngine": {
+            "title": "Công cụ tìm kiếm",
+            "default": "Mặc định",
+            "search": "Tìm kiếm",
+            "noEnginesFound": "Không tìm thấy công cụ tìm kiếm."
+        },
+        "floorpHub": {
+            "title": "Trung tâm Floorp",
+            "description": "Floorp Hub là trang cài đặt riêng của Floopp. Bạn có thể mở bằng cách đi tới \"about:hub\". Bạn cũng có thể truy cập bằng thanh bên trái của trang cài đặt Firefox \"about:preferences\".",
+            "openHub": "Mở about:hub",
+            "openPreferences": "Mở cài đặt (about:preferences)"
+        }
+    },
+    "finish": {
+        "title": "Setup Complete!",
+        "subtitle": "Congratulations! You've completed the Floorp setup. Enjoy a comfortable and secure internet browsing experience.",
+        "nextSteps": {
+            "title": "Next Steps (Optional)",
+            "setDefault": "Set as Default Browser",
+            "documentation": "Documentation"
+        },
+        "getStarted": "Get Started with Floorp",
+        "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right."
+    },
+    "welcomePage": {
+        "welcome": "Chào mừng đến Floorp!",
+        "description": "Floorp là trình duyệt nhanh và thân thiện người dùng tập trung vào quyền riêng tư và bảo mật. Chúng tôi sẽ dẫn bạn qua những tính năng và cài đặt của Floorp",
+        "readyToStart": "When you're ready, click the below button to proceed.",
+        "features": "Các tính năng của Floorp",
+        "privacy": "Quyền riêng tư",
+        "privacyDesc": "Bảo vệ dữ liệu của bạn",
+        "speed": "Nhanh",
+        "speedDesc": "Nhanh như cơn gió",
+        "customization": "Tùy chỉnh",
+        "customizationDesc": "Cài đặt nào cũng có",
+        "start": "Bắt đầu thôi"
+    },
+    "localizationPage": {
+        "title": "Floorp speaks your language",
+        "subtitle": "Check language settings and change if needed",
+        "languageSettings": "Cài đặt ngôn ngữ",
+        "languageChanged": "Nói ngôn ngữ của bạn rồi nè!",
+        "currentLanguageInfo": "Thông tin về ngôn ngữ hiện tại",
+        "systemLanguage": "Ngôn ngữ hệ thống",
+        "floorpLanguage": "Ngôn ngữ của Floorp",
+        "selectLanguage": "Chọn ngôn ngữ",
+        "useSystemLanguage": "Dùng ngôn ngữ hệ thống",
+        "multilingual": "Multilingual Support",
+        "chooseLanguage": "Choose from a wide range of languages",
+        "languageChangeNotice": "Changing language will apply the new language without restarting Floorp. Some add-ons may not support language changes."
+    },
+    "featuresPage": {
+        "title": "Main Floorp Features",
+        "subtitle": "Floorp comes with many useful features. Check out the feature overview!",
+        "panelSidebar": {
+            "title": "Panel Sidebar",
+            "description": "Access convenient features from the sidebar on the right while browsing. You can place web panels, note-taking functions, add-ons, bookmarks, etc. in the sidebar.",
+            "features": [
+                "Pin websites to the sidebar",
+                "Quickly take notes with Floorp Notes while browsing",
+                "Supports containers"
+            ]
+        },
+        "workspaces": {
+            "title": "Workspaces",
+            "description": "Organize multiple tab sets to streamline your work. Quickly switch between workspaces with distinctive icons and names. Access via the workspace button in the top left.",
+            "features": [
+                "Categorize by purpose: work, personal, etc.",
+                "Visually identify with custom icons",
+                "Easily manage tabs"
+            ]
+        },
+        "pwa": {
+            "title": "Progressive Web Applications Support",
+            "description": "On Windows, you can add PWA-compatible sites as desktop applications when you visit them. Regular websites can also be installed.",
+            "features": [
+                "Run independently as desktop apps",
+                "Can be pinned to the taskbar",
+                "Firefox add-ons work too"
+            ]
+        },
+        "mouseGesture": {
+            "title": "Mouse Gestures",
+            "description": "Control your browser more intuitively with natively implemented mouse gesture functionality. Execute gestures by holding the right-click button and moving your mouse.",
+            "features": [
+                "Operate without keyboard shortcuts",
+                "Fully customizable gestures",
+                "Quickly navigate pages and history"
+            ]
+        },
+        "notebook": "Notebook",
+        "nextTab": "Go to Next Tab"
+    },
+    "finishPage": {
+        "title": "Setup Complete!",
+        "subtitle": "Tuyệt vời! Bạn đã hoàn thành thiết lập Floorp. Tận hưởng cảm giác mượt mà và an toàn khi lướt mạng.",
+        "nextSteps": "Next Steps (Optional)",
+        "defaultBrowser": "Đặt làm trình duyệt mặc định",
+        "support": "Hỗ trợ",
+        "documentation": "Documentation",
+        "getStarted": "Bắt đầu với Floorp",
+        "hint": "Nếu cần cài đặt chi tiết hơn, hãy mở Cài đặt từ nút menu ở góc trên bên phải.",
+        "resourcesLabel": "Resources",
+        "defaultBrowserSuccess": "Floorp has been set as your default browser!"
+    },
+    "whatsNew": {
+        "title": "Welcome to Floorp {{version}}!",
+        "subtitle": "Check out what's new in Floorp!",
+        "tags": {
+            "settings": "Cài đặt",
+            "productivity": "Productivity",
+            "workspaces": "Không gian làm việc",
+            "pwa": "PWA",
+            "gestures": "Gestures"
+        },
+        "footer": {
+            "follow": "Follow",
+            "privacy": "Privacy & Terms",
+            "about": "About Floorp",
+            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+        }
+    }
+}

@@ -1,0 +1,17 @@
+/dist/
+**/_dist/
+**/node_modules/
+**/.turbo
+
+*.tar.zst
+*.tar.xz
+*.zip
+*.dmg
+
+.idea/
+
+target/
+
+logs/
+.serena/
+.env

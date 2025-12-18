@@ -1,0 +1,99 @@
+# SPDX-License-Identifier: MPL-2.0
+
+name: "(A) |α| Publish Alpha"
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      win_runtime_artifact_workflow_call:
+        type: string
+        required: false
+        default: ""
+      linux_runtime_artifact_workflow_call:
+        type: string
+        required: false
+        default: ""
+      mac_runtime_artifact_workflow_call:
+        type: string
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+run-name: "|α| Publish Alpha"
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: init zx
+        run: |
+          deno install -g -A npm:zx
+
+      - name: Retrieve run IDs
+        run: |
+          if [ -z "${{ inputs.win_runtime_artifact_workflow_call }}" ]; then
+            WINDOWS_ID=$(curl -s \
+              -H "Accept: application/vnd.github+json" \
+              -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/package.yml/runs?branch=main&status=success" \
+            | jq -r '[.workflow_runs[] | select(.display_title | endswith("Windows-x64"))][0].id')
+            echo "WINDOWS_RUN_ID=$WINDOWS_ID" >> $GITHUB_ENV
+          else
+            echo "WINDOWS_RUN_ID=${{ inputs.win_runtime_artifact_workflow_call }}" >> $GITHUB_ENV
+          fi
+
+      - name: Download Windows artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: noraneko-win-x86_64-mar-full
+          run-id: ${{ env.WINDOWS_RUN_ID }}
+          path: ~/noraneko-publish/win
+          github-token: ${{ github.token }}
+
+      - name: Download Windows installer
+        uses: actions/download-artifact@v4
+        with:
+          name: noraneko-win-x86_64-installer
+          run-id: ${{ env.WINDOWS_RUN_ID }}
+          path: ~/noraneko-publish/win-dist
+          github-token: ${{ github.token }}
+
+      - name: Setup
+        run: |
+          deno install --allow-scripts
+          sudo apt install jq
+          deno run -A ./scripts/update/xml.ts ~/noraneko-publish/win/meta.json ~/noraneko-publish/win/WINNT_x86_64-msvc-x64.update.xml
+
+          echo "VERSION=$(cat ~/noraneko-publish/win/meta.json | jq '.version' | sed 's/\"//g')" >> "$GITHUB_ENV"
+          echo "NR_VERSION=$(cat ~/noraneko-publish/win/meta.json | jq '.noraneko_version' | sed 's/\"//g')" >> "$GITHUB_ENV"
+          echo "ROOT_DIR=$(echo ~)" >> "$GITHUB_ENV"
+
+      - name: Deploy to GitHub Releases 🚀
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ${{ env.ROOT_DIR }}/noraneko-publish/win/*.mar
+            ${{ env.ROOT_DIR }}/noraneko-publish/win/*.xml
+            ${{ env.ROOT_DIR }}/noraneko-publish/win-dist/*.exe
+          tag_name: "alpha"
+          name: "Alpha Release"
+          body: "Noraneko Alpha for Windows"
+          draft: false
+          prerelease: true
+          token: ${{ github.token }}
+
+      - name: Publish Package 🎁
+        uses: actions/upload-artifact@v4
+        with:
+          name: noraneko-publish
+          path: ~/noraneko-publish/*

@@ -1,0 +1,39 @@
+{
+    "title": {
+        "default": "{{productName}} Notlar"
+    },
+    "notes": {
+        "welcome": "{{productName}} Notlar'a hoş geldiniz!",
+        "welcomeContent": "{{productName}} Notlar'a hoş geldiniz! İşte nasıl kullanacağınız:\n\n{{productName}} Notlar, cihazlarınız arasında senkronize edilebilen bir not alma özelliğidir. Senkronizasyonu etkinleştirmek için bir Mozilla hesabıyla {{productName}}'da oturum açmanız gerekir.\n{{productName}} Notlar {{productName}}'da saklanır ve Firefox Sync kullanılarak cihazlar arasında senkronize edilir. Firefox Sync, senkronizasyon içeriğini Mozilla hesap parolanızla şifreler, böylece başkaları içeriğinizi göremez.",
+        "new": "Yeni Not",
+        "reorder": "Yeniden sırala",
+        "done": "Bitti",
+        "emptyTitle": "Başlıksız",
+        "emptyContent": "İçerik yok",
+        "noNotesSelected": "Bir not seçin veya yeni bir tane oluşturun",
+        "createNew": "Yeni Not Oluştur",
+        "titlePlaceholder": "Başlık",
+        "loading": "Notlar yükleniyor...",
+        "delete": "Sil"
+    },
+    "editor": {
+        "bold": "Kalın",
+        "italic": "İtalik",
+        "underline": "Altı Çizili",
+        "strikethrough": "Üstü Çizili",
+        "bulletList": "Madde İşaretli Liste",
+        "numberedList": "Numaralandırılmış Liste",
+        "alignLeft": "Sola Hizala",
+        "alignCenter": "Ortala",
+        "alignRight": "Sağa Hizala",
+        "quote": "Alıntıla",
+        "heading1": "Başlık 1",
+        "heading2": "Başlık 2",
+        "heading3": "Başlık 3"
+    },
+    "error": {
+        "loadFailed": "Not verileri yüklenemedi",
+        "saveFailed": "Not verileri kaydedilemedi",
+        "indexOutOfRange": "Dizin {{index}} aralık dışında"
+    }
+}

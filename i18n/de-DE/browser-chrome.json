@@ -1,0 +1,374 @@
+{
+  "undo-closed-tab": {
+    "label": "Tab wiederherstellen",
+    "tooltiptext": "Letzten geschossenen Tab wieder öffnen {{shortcut}}"
+  },
+  "floorpHubWarning": {
+    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
+    "openButton": "Floorp-Hub öffnen"
+  },
+  "floorpStartWarning": {
+    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
+    "openButton": "Open Floorp Hub — Design"
+  },
+  "workspaces": {
+    "modal": {
+      "name": "Name",
+      "name-placeholder": "Einen Namen für diesen Arbeitsbereich eingeben",
+      "container": "Container",
+      "no-container": "Kein Container",
+      "icon": "Symbol",
+      "edit-title": "Arbeitsbereich bearbeiten",
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen"
+    },
+    "icons": {
+      "article": "Artikel",
+      "book": "Buch",
+      "briefcase": "Koffer",
+      "cart": "Einkaufswagen",
+      "chat": "Chat",
+      "chill": "",
+      "circle": "Kreis",
+      "compass": "Kompass",
+      "code": "Code",
+      "dollar": "Dollar",
+      "fence": "Zaun",
+      "fingerprint": "Fingerabdruck",
+      "food": "Essen",
+      "fruit": "Frucht",
+      "game": "Spiel",
+      "gear": "Einstellungen",
+      "gift": "Geschenk",
+      "key": "Schüssel",
+      "lightning": "Blitz",
+      "network": "Netzwerk",
+      "notes": "Notizen",
+      "paint": "Pinsel",
+      "photo": "Foto",
+      "pin": "PIN",
+      "pet": "Pfote",
+      "question": "Fragezeichen",
+      "smartphone": "Smartphone",
+      "star": "Stern",
+      "tree": "Baum",
+      "vacation": "Flugzeug",
+      "love": "Herz",
+      "moon": "Mond",
+      "music": "Musik",
+      "user": "Benutzer"
+    },
+    "service": {
+      "new-workspace": "Neuer Arbeitsbereich ({{count}})"
+    },
+    "context-menu": {
+      "move-up": "Diesen Arbeitsbereich nach oben schieben",
+      "move-down": "Diesen Arbeitsbereich nach unten schieben",
+      "delete": "Arbeitsbereich löschen",
+      "manage": "Arbeitsbereich verwalten",
+      "archive": "Archive Workspace"
+    },
+    "popup": {
+      "create-new": "Neuen Arbeitsbereich erstellen...",
+      "manage": "Arbeitsbereiche verwalten",
+      "restore": "Show Archived Workspaces",
+      "restore-cancel": "Exit Restore Mode",
+      "restore-title": "Archived Workspaces",
+      "restore-loading": "Loading archived workspaces…",
+      "restore-empty": "No archived workspaces",
+      "restore-error": "Failed to load archived workspaces",
+      "restore-tooltip": "Toggle restore mode",
+      "restore-item": "\"{{name}}\" wiederherstellen",
+      "restore-delete-tooltip": "Dieses Archiv löschen",
+      "restore-tab-count": "{{count}} Tab",
+      "restore-tab-count_plural": "{{count}} Tabs",
+      "restore-time-just-now": "Soeben",
+      "restore-time-minutes": "Vor {{minutes}} Minute",
+      "restore-time-minutes_plural": "Vor {{minutes}} Minuten",
+      "restore-time-hours": "Vor {{hours}} Stunde",
+      "restore-time-hours_plural": "Vor {{hours}} Stunden",
+      "restore-time-days": "Vor {{days}} Tag",
+      "restore-time-days_plural": "Vor {{days}} Tagen"
+    },
+    "menu": {
+      "moveTabToAnotherWorkspace": "Tab zu einem anderen Arbeitsbereich verschieben",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
+    },
+    "error": {
+      "invalidWorkspaceID": "Ungültige ID für Arbeitsbereich (Sortierung nicht aktualisiert)"
+    }
+  },
+  "profile-manager-button": {
+    "label": "Profile Manager",
+    "tooltiptext": "Open Profile Manager"
+  },
+  "statusbar": {
+    "toggle": "Status Bar{{mark}}"
+  },
+  "splitview": {
+    "tab-context": {
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
+    }
+  },
+  "ssb": {
+    "menu": {
+      "webapps": "Web-Apps",
+      "install-current": "Aktuelle Seite als Progressive Web App installieren",
+      "open-installed": "Installierte Apps öffnen"
+    },
+    "page-action": {
+      "title": "Anwendung öffnen",
+      "install": "Anwendung installieren",
+      "open": "Anwendung öffnen",
+      "cancel": "Abbrechen",
+      "site-icon": "Webseitensymbol"
+    }
+  },
+  "privateContainer": {
+    "openInPrivateContainer": "In privatem Container öffnen",
+    "reopenInPrivateContainer": "In privatem Container wieder öffnen",
+    "name": "Privater Container"
+  },
+  "mouseGesture": {
+    "actions": {
+      "gecko-back": "Zurück",
+      "gecko-forward": "Vorwärts",
+      "gecko-reload": "Neu laden",
+      "gecko-close-tab": "Tab schließen",
+      "gecko-open-new-tab": "Neuer Tab",
+      "gecko-duplicate-tab": "Tab klonen",
+      "gecko-reload-all-tabs": "Alle Tabs neu laden",
+      "gecko-restore-last-tab": "Geschlossenen Tab wieder öffnen",
+      "gecko-open-new-window": "Neues Fenster öffnen",
+      "gecko-open-new-private-window": "Neues privates Fenster öffnen",
+      "gecko-close-window": "Fenster schließen",
+      "gecko-restore-last-window": "Letztes Fenster wiederherstellen",
+      "gecko-show-next-tab": "Nächsten Tab anzeigen",
+      "gecko-show-previous-tab": "Vorherigen Tab anzeigen",
+      "gecko-show-all-tabs-panel": "\"Alle Registerkarten\"-Panel anzeigen",
+      "gecko-force-reload": "Neu laden erzwingen",
+      "gecko-zoom-in": "Hineinzoomen",
+      "gecko-zoom-out": "Herauszoomen",
+      "gecko-reset-zoom": "Zoom zurücksetzen",
+      "gecko-bookmark-this-page": "Lesezeichen für diese Seite setzen",
+      "gecko-open-home-page": "Startseite öffnen",
+      "gecko-open-addons-manager": "Open Addons Manager",
+      "gecko-send-with-mail": "Send With Mail",
+      "gecko-save-page": "Save Page",
+      "gecko-print-page": "Print Page",
+      "gecko-mute-current-tab": "Mute Current Tab",
+      "gecko-show-source-of-page": "Show Source Of Page",
+      "gecko-show-page-info": "Show Page Info",
+      "floorp-rest-mode": "Enable Rest Mode",
+      "floorp-hide-user-interface": "Hide Interface",
+      "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
+      "gecko-stop": "Stop",
+      "gecko-search-in-this-page": "Search In This Page",
+      "gecko-show-next-search-result": "Show Next Search Result",
+      "gecko-show-previous-search-result": "Show Previous Search Result",
+      "gecko-search-the-web": "Search The Web",
+      "gecko-open-migration-wizard": "Open Migration Wizard",
+      "gecko-quit-from-application": "Quit Application",
+      "gecko-enter-into-customize-mode": "Enter Customize Mode",
+      "gecko-enter-into-offline-mode": "Enter Offline Mode",
+      "gecko-open-screen-capture": "Open Screen Capture",
+      "floorp-show-pip": "Show Picture-in-Picture",
+      "gecko-open-bookmark-add-tool": "Open Bookmark Add Tool",
+      "gecko-open-bookmarks-manager": "Open Bookmarks Manager",
+      "gecko-toggle-bookmark-toolbar": "Toggle Bookmark Toolbar",
+      "gecko-open-general-preferences": "Open General Preferences",
+      "gecko-open-privacy-preferences": "Open Privacy Preferences",
+      "gecko-open-workspaces-preferences": "Open Workspaces Preferences",
+      "gecko-open-containers-preferences": "Open Containers Preferences",
+      "gecko-open-search-preferences": "Open Search Preferences",
+      "gecko-open-sync-preferences": "Open Sync Preferences",
+      "gecko-open-task-manager": "Open Task Manager",
+      "gecko-forget-history": "Forget History",
+      "gecko-quick-forget-history": "Quick Forget History",
+      "gecko-clear-recent-history": "Clear Recent History",
+      "gecko-restore-last-session": "Restore Last Session",
+      "gecko-search-history": "Search History",
+      "gecko-manage-history": "Manage History",
+      "gecko-open-downloads": "Open Downloads",
+      "gecko-show-bookmark-sidebar": "Show Bookmark Sidebar",
+      "gecko-show-history-sidebar": "Show History Sidebar",
+      "gecko-show-synced-tabs-sidebar": "Show Synced Tabs Sidebar",
+      "gecko-reverse-sidebar": "Reverse Sidebar Position",
+      "gecko-hide-sidebar": "Hide Sidebar",
+      "gecko-toggle-sidebar": "Toggle Sidebar",
+      "gecko-scroll-up": "Scroll Up",
+      "gecko-scroll-down": "Scroll Down",
+      "gecko-scroll-right": "Scroll Right",
+      "gecko-scroll-left": "Scroll Left",
+      "gecko-scroll-to-top": "Scroll to Top",
+      "gecko-scroll-to-bottom": "Scroll to Bottom",
+      "gecko-workspace-next": "Switch to Next Workspace",
+      "gecko-workspace-previous": "Switch to Previous Workspace"
+    },
+    "descriptions": {
+      "gecko-back": "Navigate back to the previous page",
+      "gecko-forward": "Navigate forward to the next page",
+      "gecko-reload": "Reload the current page",
+      "gecko-close-tab": "Close the current tab",
+      "gecko-open-new-tab": "Open a new tab",
+      "gecko-duplicate-tab": "Duplicate the current tab",
+      "gecko-reload-all-tabs": "Reload all tabs",
+      "gecko-restore-last-tab": "Reopen the last closed tab"
+    }
+  },
+  "qrCode": {
+    "pageAction": "Generate QR Code",
+    "modalTitle": "QR Code Generator",
+    "loading": "Generating QR Code...",
+    "copyButton": "Copy Image",
+    "downloadButton": "Herunterladen",
+    "closeButton": "Schließen",
+    "copySuccess": "QR code copied to clipboard!",
+    "copyError": "Failed to copy QR code",
+    "generateError": "Failed to generate QR code"
+  },
+  "qrcode-generate-page-action": "Generate QR Code for this page",
+  "qrcode-generate-page-action-title": "QR Code Generator",
+  "panelSidebar": {
+    "modal": {
+      "type": "Panel Type",
+      "typeOptions": {
+        "web": "Web Page",
+        "sidebar-tool": "Tool Sidebar",
+        "extension": "Extension Sidebar",
+        "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
+      },
+      "width": "Panel Width",
+      "url": "Web Page URL",
+      "container": "Container",
+      "noContainer": "Kein Container",
+      "userAgent": "Use Mobile User Agent",
+      "extension": "Display Extension",
+      "sideBarTool": "Display Sidebar Tool",
+      "title": "Add Panel",
+      "add": "Neu",
+      "cancel": "Abbrechen"
+    },
+    "contextMenu": {
+      "unload": "Unload this webpanel",
+      "mute": "Mute/Unmute this webpanel",
+      "changeZoom": "Change zoom level",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "resetZoom": "Reset zoom",
+      "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
+      "delete": "Delete this panel"
+    }
+  },
+  "chrome_css": {
+    "menu": "Stil",
+    "rebuild": "Rebuild Style Sheets",
+    "create": "Create New Style Sheet",
+    "open_folder": "Open Style Sheets Folder",
+    "edit_user_chrome": "Edit userChrome.css",
+    "edit_user_content": "Edit userContent.css",
+    "rebuild_complete": "Style sheets rebuilt",
+    "editor_path_not_found": "Editor Path Not Found",
+    "set_pref_description": "Please set the editor path",
+    "please_enter_filename": "Please enter a filename",
+    "file_created": "File Created",
+    "file_created_successfully": "File created successfully",
+    "open_file_in_editor": "Open file in editor?",
+    "error_title": "Error",
+    "folder_open_failed": "Failed to open CSS folder",
+    "edit_failed": "Failed to edit file"
+  },
+  "reboot": {
+    "menu": {
+      "title": "Neu starten",
+      "normal-restart": "Neu starten",
+      "restart-cache-clear": "Neustart mit geleertem Cache",
+      "restart-safe-mode": "Im Sicheren Modus neu starten",
+      "restart-profile-manager": "Mit Profil-Manager neu starten"
+    }
+  },
+  "nr-webscraper": {
+    "panelTitle": "{{productName}} is operating",
+    "panelDefaultMessage": "{{action}} in progress...",
+    "panelProgressSummary": "Affects {{count}} element(s)",
+    "formSummary": "Filling form: {{count}} field(s)",
+    "formFieldProgress": "Field {{current}}/{{total}}: \"{{value}}\"",
+    "inputValueSet": "Set input value: \"{{value}}\"",
+    "clickElementWithText": "Click {{tag}}: \"{{text}}\"",
+    "clickElementNoText": "Clicking {{tag}} element",
+    "inspectPageHtml": "Retrieved full page HTML",
+    "inspectGetElement": "Retrieved element: {{selector}}",
+    "inspectGetElements": "{{count}} element(s) matched: {{selector}}",
+    "inspectGetElementByText": "Retrieved element matching text: \"{{text}}\"",
+    "inspectGetElementText": "Retrieved text from: {{selector}}",
+    "inspectGetValue": "Retrieved value: {{selector}}",
+    "submitForm": "Submitting form: {{name}}",
+    "actionLabelHighlight": "Highlight",
+    "actionLabelInspect": "Inspect",
+    "actionLabelFill": "Fill",
+    "actionLabelInput": "Input",
+    "actionLabelClick": "Click",
+    "actionLabelSubmit": "Submit"
+  },
+  "externalBrowser": {
+    "menu": {
+      "openTabIn": "Open Tab in External Browser",
+      "openLinkIn": "Open Link in External Browser",
+      "defaultBrowser": "System Default Browser",
+      "noBrowsers": "No external browsers detected",
+      "noValidUrl": "No valid URL to open"
+    }
+  },
+  "chromeWebStore": {
+    "button": {
+      "addToFloorp": "Add to Floorp",
+      "installing": "Installiere...",
+      "success": "Added!",
+      "error": "Error occurred",
+      "installed": "Installed"
+    },
+    "error": {
+      "title": "Installation Error",
+      "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
+      "alreadyInstalled": "This extension is already installed ({{name}})",
+      "downloadFailed": "Failed to download CRX file",
+      "conversionFailed": "Failed to convert extension: {{error}}",
+      "conversionFailedGeneric": "Failed to convert CRX to XPI",
+      "installError": "Installation error: {{error}}",
+      "installFailed": "Installation failed",
+      "noData": "No installation data provided",
+      "addonManagerUnavailable": "AddonManager is not available",
+      "noBrowserWindow": "Could not find browser window for installation",
+      "createInstallFailed": "Failed to create installation object",
+      "cancelledByUser": "Installation cancelled by user",
+      "downloadCancelled": "Download cancelled",
+      "timeout": "Installation timed out",
+      "xpiInstallError": "XPI installation error: {{error}}",
+      "errorWithCode": "Installation error (code: {{code}})",
+      "experimentDisabled": "This feature is not currently available"
+    },
+    "installErrors": {
+      "downloadFailed": "Download failed",
+      "signatureVerifyFailed": "Failed to verify extension signature",
+      "corruptOrIncompatible": "Extension is corrupted or incompatible",
+      "incompatible": "This extension is not compatible with Floorp",
+      "blocked": "This extension is blocked",
+      "timeout": "Extension installation timed out",
+      "installFailed": "Extension installation failed",
+      "parseFailed": "Failed to parse extension",
+      "invalidFile": "Invalid extension file",
+      "networkError": "A network error occurred"
+    }
+  },
+  "addons": {
+    "notification": {
+      "chromeExtensionMessage": "Do you want to add Chrome extension \"{{name}}\"? This extension has been converted from Chrome Web Store.",
+      "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
+      "defaultExtensionName": "this extension",
+      "chromeBadge": "[Chrome]",
+      "compatibilityWarning": "This Chrome extension has been converted to Firefox compatible format. Some features may not work properly."
+    }
+  }
+}
